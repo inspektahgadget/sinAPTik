@@ -7,5 +7,7 @@ def main():
 	#going to the debian dir
 	uct_leg.cwd('pub/linux/debian/')
 	uct_leg.dir();
+	#opening file to write to
+	f = open("list.txt","w")
 if __name__=='__main__':
 	main()
